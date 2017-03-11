@@ -1,4 +1,4 @@
-This is a dual English-Japanese keymap that utilises a thumb-shift system for Japanese input. You can read more about this layout on my blog [here](https://ishigoya.com). 
+This is a dual English-Japanese keymap that utilises a thumb-shift system for Japanese input. You can read more about this layout on my blog [here](https://ishigoya.com/computing/2017-01-06-80b58cb6). 
 
 ### Some Editing Necessary
 The system I created this on is a Chromebook, and uses a Japanese keymap, so some of the key mappings may not be the same as those on your system. In particular, the Escape key on layer 0 is mapped to KC_LCTL.

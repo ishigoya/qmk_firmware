@@ -900,26 +900,6 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
 				return MACRO( T(ZKHK), END);
 			}
 			break;
-/*
-		// TOJPL and TOENL switch keyboard language.
-		// The Ctrl+[] commands here load the appropriate ibus-anthy input engine via a WM shortcut
-		// The first key pressed in the new engine is missed, thus the space key
-		// TOJPLOUT works in the same way but is used for switching engines on external systems.
-		case TOJPL:
-			if (record->event.pressed) {
-				default_layer_state = (1<<JP);
-				return MACRO( D(LCTL), T(END), U(LCTL), END);
-				//return MACRO( D(LCTL), T(END), U(LCTL), W(250), W(250), W(250), T(SPACE), END);
-			}
-			break;
-		case TOENL:
-			if (record->event.pressed) {
-				default_layer_state = (1<<BASE);
-				return MACRO( D(LCTL), T(HOME), U(LCTL), END);
-			//return MACRO( D(LCTL), T(HOME), U(LCTL), W(250), W(250), W(250), T(SPACE), END);
-			}
-			break;
-*/
 		}
     return MACRO_NONE;   
 };
